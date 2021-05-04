@@ -1,5 +1,5 @@
-name: release_extraservings
-description: ExtraServings RC
+name: rbac
+description: RBAC
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 
 version: 1.0.0+1
@@ -15,12 +15,7 @@ dependencies:
   cloud_functions: ^1.0.3
   firebase_auth: ^1.1.0
   firebase_core: ^1.1.0
-  # firebase_storage: ^8.0.5
-  # flushbar: ^1.10.4
   provider: ^5.0.0
-  # shared_preferences: ^2.0.5
-  # stripe_payment: ^1.0.11
-  # url_launcher: ^6.0.3
 
 dev_dependencies:
   flutter_test:
@@ -28,20 +23,3 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-
-  fonts:
-    - family: Lato
-      fonts:
-        - asset: assets/fonts/Lato-Regular.ttf
-        - asset: assets/fonts/Lato-Italic.ttf
-          style: italic
-        - asset: assets/fonts/Lato-Light.ttf
-          weight: 300
-        - asset: assets/fonts/Lato-Bold.ttf
-          weight: 700
-        - asset: assets/fonts/Lato-Black.ttf
-          weight: 900
-  
-  assets:
-    - assets/images/es-x-320.png
-    - assets/images/3657582.jpg
